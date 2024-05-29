@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.vehicle {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.vehicle img {
+    width: 100%;
+    height: auto;
+}
+
+.vehicle p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
