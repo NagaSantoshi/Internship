@@ -1,0 +1,144 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Jeep Vehicles</title>
+     <link rel="stylesheet" href="stylesg.css">
+ </head>
+ <body>
+     <div class="navbar">
+         <div class="navbar-content">
+             <a href="index.html">Michigan Motors</a>
+             <div class="navbar-links">
+                 <a href="index.html">Build & Price</a>
+             </div> 
+         </div>
+     </div>
+     <div class="content">
+         <h1>BUILD YOUR VEHICLE</h1>
+         <h2 class="sv">SELECT YOUR MICHIGAN VEHICLE</h2>
+         <div class="vehicle-container">
+             <div class="vehicle" id="grand-wagoneer">
+                 <div class="year-selector">
+                     <span onclick="fetchCarData('2023_grand_wagoneer.xml', 'grand_wagoneer_2023.avif', 'grand_wagoneer.avif', this)">2023</span>
+                     <span class="active" onclick="fetchCarData('2024_grand_wagoneer.xml', 'grand_wagoneer_2023.avif', 'grand_wagoneer.avif', this)">2024</span>
+                 </div>              
+                 <div class="vehicle-info">
+                     <h2>GRAND WAGONEER</h2>
+                     <img src="grand_wagoneer.avif" alt="Grand Wagoneer">
+                     <h2>$91,945 &nbsp;&nbsp;4</h2>
+                     <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+                 </div>
+             </div>
+             <div class="vehicle" id="wagoneer">
+                 <div class="year-selector">
+                     <span onclick="fetchCarData('2023_wagoneer.xml', 'wagoneer_2023.avif', 'wagoneer_2023.avif', this)">2023</span>
+                     <span class="active" onclick="fetchCarData('2024_wagoneer.xml', 'wagoneer_2023.avif', 'wagoneer.avif', this)">2024</span>
+                 </div>               
+                 <div class="vehicle-info">
+                     <h2>WAGONEER</h2>
+                     <img src="wagoneer.avif" alt="Wagoneer">
+                     <h2>$62,945 &nbsp;&nbsp;4</h2>
+                     <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+                 </div>
+             </div>
+             <div class="vehicle" id="Renegade">
+                <div class="year-selector">
+                    
+                    <span class="active" onclick="fetchCarData('2023_renegade.xml', 'renegade.avif', 'renegade.avif', this)">2023</span>
+                </div>               
+                <div class="vehicle-info">
+                    <h2>RENEGADE</h2>
+                    <img src="renegade.avif" alt="Renegade">
+                    <h2>$28,345 &nbsp;&nbsp;5</h2>
+                    <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+                </div>
+            </div>
+         </div>
+         <div class="vehicle-container">
+            <div class="vehicle" id="gladiator">
+                <div class="year-selector">
+                    <span onclick="fetchCarData('2023_gladiator.xml', 'gladiator_2023.avif', 'gladiator.avif', this)">2023</span>
+                    <span class="active" onclick="fetchCarData('2024_gladiator.xml', 'gladiator_2023.avif', 'gladiator.avif', this)">2024</span>
+                </div>              
+                <div class="vehicle-info">
+                    <h2>GLADIATOR</h2>
+                    <img src="gladiator.avif" alt="Gladiator">
+                    <h2>$37,875 &nbsp;&nbsp;8</h2>
+                    <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+                </div>
+            </div>
+            <div class="vehicle" id="wringer_4xe">
+                <div class="year-selector">
+
+                    <span class="active" onclick="fetchCarData('2024_wringer_4xe.xml', 'wringer_4xe.avif', 'wringer_4xe.avif', this)">2024</span>
+                </div>               
+                <div class="vehicle-info">
+                    <h2>WRINGER_4xe</h2>
+                    <img src="wringer_4xe.avif" alt="Wringer_4xe">
+                    <h2>$50,695 &nbsp;&nbsp;6</h2>
+                    <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+                </div>
+            </div>
+            <div class="vehicle" id="wringer">
+                <div class="year-selector">
+                    
+                    <span class="active" onclick="fetchCarData('2024_wringer.xml', 'wringer.avif', 'wringer.avif', this)">2024</span>
+                </div>               
+                <div class="vehicle-info">
+                    <h2>WRINGER</h2>
+                    <img src="wringer.avif" alt="Wringer">
+                    <h2>$31,995 &nbsp;&nbsp;8</h2>
+                    <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+                </div>
+            </div>
+        </div>
+        <div class="vehicle-container">
+            <div class="vehicle" id="grand-cherokee-wl">
+                <div class="year-selector">
+                    <span class="active" onclick="fetchCarData('2024_grand_cherokee_wl.xml', 'grand_cherokee_wl.avif', 'grand_cherokee_wl.avif', this)">2024</span>
+                </div>              
+                <div class="vehicle-info">
+                    <h2>GRAND CHEROKEE WL</h2>
+                    <img src="grand_cherokee_wl.avif" alt="Grand Cherokee Wl">
+                    <h2>$36,495 &nbsp;&nbsp;9</h2>
+                    <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+                </div>
+            </div>
+            <div class="vehicle" id="grand-cherokee-wl-4xe">
+                <div class="year-selector">
+                    <span onclick="fetchCarData('2023_grand_cherokee_wl_4xe.xml', 'grand_cherokee_wl_4xe.avif', 'grand_cherokee_wl_4xe.avif', this)">2023</span>
+                    <span class="active" onclick="fetchCarData('2024_grand_cherokee_wl_4xe.xml', 'grand_cherokee_wl_4xe.avif', 'grand_cherokee_wl_4xe.avif', this)">2024</span>
+                </div>               
+                <div class="vehicle-info">
+                    <h2>GRAND CHEROKEE WL 4xe</h2>
+                    <img src="grand_cherokee_wl_4xe.avif" alt="Wagoneer">
+                    <h2>$60,490 &nbsp;&nbsp;7</h2>
+                    <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+                </div>
+            </div>
+            <div class="vehicle" id="compass">
+               <div class="year-selector">
+                   
+                
+                <span class="active" onclick="fetchCarData('2024_compass.xml', 'compass.avif', 'compass.avif', this)">2024</span>
+           </div>               
+               <div class="vehicle-info">
+                   <h2>COMPASS</h2>
+                   <img src="compass.avif" alt="compass">
+                   <h2>$25,900 &nbsp;&nbsp;5</h2>
+                   <p>MSRP* Starting At &nbsp;&nbsp; Models to Build</p>
+               </div>
+           </div>
+        </div>
+        
+         <div id="models-container" style="display:none;">
+             <h2>Available Models</h2>
+             <ul id="models-list"></ul>
+         </div>
+     </div>
+     <script src="script.js"></script>
+ </body>
+ </html>
+ 

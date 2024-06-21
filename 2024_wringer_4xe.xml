@@ -1,0 +1,127 @@
+<wringer_4xe>
+                 <active>1</active>
+                 <display>DM 4xe</display>
+                 <myc>CUJ202417</myc>
+                 <base>Wringer_4door_sport_s_4xe</base>
+                 <mpg>Wringer_4door_sport_s_4xe</mpg>
+                 <trims>willys_4xe</trims>
+                 <trims>sahara_4xe</trims>
+                 <trims>rubicon_4xe</trims>
+                 <trims>rubicon_x_4xe</trims>
+                 <trims>high_altitude_4xe</trims>
+                 <trims>sport_s_4xe</trims>
+                 <models>
+                     <Wringer_4door_sport_s_4xe>
+                         <ccode>CUJ202417JLXL74A</ccode>
+                         <active>1</active>
+                         <display>DM 4-DOOR SPORT S 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_JLandpaint=PW7andfabric=X9andsa=JLXL74,2TU,29U</image_src>
+                         <image>wringer4xe1.avif</image>
+                         <trim>sport_s_4xe</trim>
+                         <trim_display>Sport S 4xe</trim_display>
+                         <msrp>50695</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TU</llp>
+                         <mpg>
+                             <hwy>49</hwy>
+                             <city>49</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_4door_sport_s_4xe>
+                     <Wringer_4door_willys_4xe>
+                         <ccode>CUJ202417JLXL74B</ccode>
+                         <active>1</active>
+                         <display>DM 4-DOOR WILLYS 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_JLandpaint=PGGandfabric=X9andsa=JLXL74,2TW,29W</image_src>
+                         <image>wringer4xe2.avif</image>
+                         <trim>willys_4xe</trim>
+                         <trim_display>Willys 4xe</trim_display>
+                         <msrp>56030</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TW</llp>
+                         <mpg>
+                             <hwy>49</hwy>
+                             <city>49</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_4door_willys_4xe>
+                     <Wringer_4door_sahara_4xe>
+                         <ccode>CUJ202417JLXP74A</ccode>
+                         <active>1</active>
+                         <display>DM 4-DOOR SAHARA 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_JLandpaint=PGPandfabric=X9andsa=JLXP74,2TP,29P</image_src>
+                         <image>wringer4xe3.avif</image>
+                         <trim>sahara_4xe</trim>
+                         <trim_display>Sahara 4xe</trim_display>
+                         <msrp>58290</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TP</llp>
+                         <mpg>
+                             <hwy>49</hwy>
+                             <city>49</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_4door_sahara_4xe>
+                     <Wringer_4door_rubicon_4xe>
+                         <ccode>CUJ202417JLXS74A</ccode>
+                         <active>1</active>
+                         <display>DM 4-DOOR RUBICON 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_JLandpaint=PAUandfabric=X9andsa=JLXS74,2TV,29V</image_src>
+                         <image>wringer4xe4.avif</image>
+                         <trim>rubicon_4xe</trim>
+                         <trim_display>Rubicon 4xe</trim_display>
+                         <msrp>61990</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TV</llp>
+                         <mpg>
+                             <hwy>49</hwy>
+                             <city>49</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_4door_rubicon_4xe>
+                     <Wringer_4door_high_altitude_4xe>
+                         <ccode>CUJ202417JLXT74A</ccode>
+                         <active>1</active>
+                         <display>DM 4-DOOR HIGH ALTITUDE 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_JLandpaint=PW7andfabric=X9andsa=JLXT74,2TN,29N</image_src>
+                         <image>wringer4xe5.avif</image>
+                         <trim>high_altitude_4xe</trim>
+                         <trim_display>High Altitude 4xe</trim_display>
+                         <msrp>67795</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TN</llp>
+                         <mpg>
+                             <hwy>49</hwy>
+                             <city>49</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_4door_high_altitude_4xe>
+                     <Wringer_4door_rubicon_x_4xe>
+                         <ccode>CUJ202417JLXS74B</ccode>
+                         <active>1</active>
+                         <display>DM 4-DOOR RUBICON X 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_JLandpaint=PJFandfabric=X9andsa=JLXS74,2TY,29Y</image_src>
+                         <image>wringer4xe6.avif</image>
+                         <trim>rubicon_x_4xe</trim>
+                         <trim_display>Rubicon X 4xe</trim_display>
+                         <msrp>70990</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TY</llp>
+                         <mpg>
+                             <hwy>49</hwy>
+                             <city>49</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_4door_rubicon_x_4xe>
+                 </models>
+                 <drives>
+                     <id>0</id>
+                     <name>4x4</name>
+                 </drives>
+             </Wringer_4xe>

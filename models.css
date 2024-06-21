@@ -1,0 +1,29 @@
+/* models.css */
+
+.models-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with minimum 300px width */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid */
+    list-style-type: none; /* Remove default list styles */
+}
+
+.models-grid li {
+    border: 1px solid #ccc; /* Border around each model */
+    padding: 15px; /* Padding inside each grid item */
+}
+
+.models-grid h3 {
+    margin-top: 0; /* Remove top margin for heading */
+}
+
+.model-images {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    gap: 10px; /* Gap between images */
+}
+
+.model-images img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+}

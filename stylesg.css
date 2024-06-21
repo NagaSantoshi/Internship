@@ -1,0 +1,172 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-content a {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.content {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 50px 0;
+}
+
+.content .sv {
+    font-size: 20px;
+    text-align: left;
+    margin: 0 30px;
+    font-weight: 700;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+
+.year-selector span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.year-selector .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.vehicle-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.vehicle {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.vehicle img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.vehicle-info {
+    margin-top: 10px;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-content a {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.content {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 50px 0;
+}
+
+.content .sv {
+    font-size: 20px;
+    text-align: left;
+    margin: 0 30px;
+    font-weight: 700;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+
+.year-selector span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.year-selector .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.vehicle-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.vehicle {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.vehicle img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.vehicle-info {
+    margin-top: 10px;
+}

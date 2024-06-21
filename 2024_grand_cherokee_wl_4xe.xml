@@ -1,0 +1,146 @@
+<grand_cherokee_wl_4xe>
+                 <active>1</active>
+                 <display>Grand Cherokee 4xe</display>
+                 <myc>CUJ202419</myc>
+                 <base>grand_cherokee_4xe</base>
+                 <mpg>grand_cherokee_4xe</mpg>
+                 <trims>4xe</trims>
+                 <trims>anniversary_edition_4xe</trims>
+                 <trims>summit_reserve_4xe</trims>
+                 <trims>trailhawk_4xe</trims>
+                 <trims>carb_state_edition_4xe</trims>
+                 <trims>summit_4xe</trims>
+                 <trims>overland_4xe</trims>
+                 <models>
+                     <grand_cherokee_4xe>
+                         <ccode>CUJ202419WLXP74A</ccode>
+                         <active>1</active>
+                         <display>GRAND CHEROKEE 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WLandpaint=PW7andfabric=X7andsa=WLXP74,2TF,27F</image_src>
+                         <image>2024_gc4xe1.avif</image>
+                         <trim>4xe</trim>
+                         <trim_display>4xe</trim_display>
+                         <msrp>60490</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TF</llp>
+                         <mpg>
+                             <hwy>56</hwy>
+                             <city>56</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_cherokee_4xe>
+                     <grand_cherokee_anniversary_edition_4xe>
+                         <ccode>CUJ202419WLXP74C</ccode>
+                         <active>1</active>
+                         <display>GRAND CHEROKEE ANNIVERSARY EDITION 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WLandpaint=PW7andfabric=X7andsa=WLXP74,2TW,27W</image_src>
+                         <image>2024_gc4xe2.avif</image>
+                         <trim>anniversary_edition_4xe</trim>
+                         <trim_display>Anniversary Edition 4xe</trim_display>
+                         <msrp>64185</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TW</llp>
+                         <mpg>
+                             <hwy>56</hwy>
+                             <city>56</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_cherokee_anniversary_edition_4xe>
+                     <grand_cherokee_trailhawk_4xe>
+                         <ccode>CUJ202419WLXR74A</ccode>
+                         <active>1</active>
+                         <display>GRAND CHEROKEE TRAILHAWK 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WLandpaint=PW7andfabric=X7andsa=WLXR74,2TK,27K</image_src>
+                         <image>2024_gc4xe3.avif</image>
+                         <trim>trailhawk_4xe</trim>
+                         <trim_display>Trailhawk 4xe</trim_display>
+                         <msrp>66185</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TK</llp>
+                         <mpg>
+                             <hwy>56</hwy>
+                             <city>56</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_cherokee_trailhawk_4xe>
+                     <grand_cherokee_carb_state_edition_4xe>
+                         <ccode>CUJ202419WLXR74B</ccode>
+                         <active>1</active>
+                         <display>GRAND CHEROKEE CARB STATE EDITION 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WLandpaint=PW7andfabric=X7andsa=WLXR74,2TL,27L</image_src>
+                         <image>2024_gc4xe1.avif</image>
+                         <trim>carb_state_edition_4xe</trim>
+                         <trim_display>CARB State Edition 4xe</trim_display>
+                         <msrp>68075</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TL</llp>
+                         <mpg>
+                             <hwy>56</hwy>
+                             <city>56</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_cherokee_carb_state_edition_4xe>
+                     <grand_cherokee_overland_4xe>
+                         <ccode>CUJ202419WLXS74A</ccode>
+                         <active>1</active>
+                         <display>GRAND CHEROKEE OVERLAND 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WLandpaint=PW7andfabric=X7andsa=WLXS74,2TP,27P</image_src>
+                         <image>2024_gc4xe4.avif</image>
+                         <trim>overland_4xe</trim>
+                         <trim_display>Overland 4xe</trim_display>
+                         <msrp>74075</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TP</llp>
+                         <mpg>
+                             <hwy>56</hwy>
+                             <city>56</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_cherokee_overland_4xe>
+                     <grand_cherokee_summit_4xe>
+                         <ccode>CUJ202419WLXT74B</ccode>
+                         <active>1</active>
+                         <display>GRAND CHEROKEE SUMMIT 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WLandpaint=PW7andfabric=T7andsa=WLXT74,2TT,27T</image_src>
+                         <image>2024_gc4xe5.avif</image>
+                         <trim>summit_4xe</trim>
+                         <trim_display>Summit 4xe</trim_display>
+                         <msrp>75265</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TT</llp>
+                         <mpg>
+                             <hwy>56</hwy>
+                             <city>56</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_cherokee_summit_4xe>
+                     <grand_cherokee_summit_reserve_4xe>
+                         <ccode>CUJ202419WLXT74A</ccode>
+                         <active>1</active>
+                         <display>GRAND CHEROKEE SUMMIT RESERVE 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WLandpaint=PW7andfabric=T7andsa=WLXT74,2TU,27U</image_src>
+                         <image>2024_gc4xe6.avif</image>
+                         <trim>summit_reserve_4xe</trim>
+                         <trim_display>Summit Reserve 4xe</trim_display>
+                         <msrp>79150</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TU</llp>
+                         <mpg>
+                             <hwy>56</hwy>
+                             <city>56</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_cherokee_summit_reserve_4xe>
+                 </models>
+                 <drives>
+                     <id>0</id>
+                     <name>4x4</name>
+                 </drives>
+             </grand_cherokee_wl_4xe>

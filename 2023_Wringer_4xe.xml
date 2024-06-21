@@ -1,0 +1,104 @@
+<Wringer_4xe>
+                 <active>0</active>
+                 <display>DM 4xe</display>
+                 <myc>CUJ202317</myc>
+                 <base>null</base>
+                 <mpg>null</mpg>
+                 <trims>sahara_4xe</trims>
+                 <trims>rubicon_4xe</trims>
+                 <trims>rubicon_20th_anniversary_4xe</trims>
+                 <trims>willys_4xe</trims>
+                 <trims>high_altitude_4xe</trims>
+                 <models>
+                     <Wringer_willys_4xe>
+                         <ccode>CUJ202317JLXL74B</ccode>
+                         <active>0</active>
+                         <display>DM WILLYS 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2023_JLandpaint=PW7andfabric=T5andsa=JLXL74,2TW,29W</image_src>
+                         <trim>willys_4xe</trim>
+                         <trim_display>Willys 4xe</trim_display>
+                         <msrp>54735</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TW</llp>
+                         <mpg>
+                             <hwy>0</hwy>
+                             <city>0</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_willys_4xe>
+                     <Wringer_sahara_4xe>
+                         <ccode>CUJ202317JLXP74A</ccode>
+                         <active>0</active>
+                         <display>DM SAHARA 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2023_JLandpaint=PHTandfabric=TAandsa=JLXP74,2TP,29P</image_src>
+                         <trim>sahara_4xe</trim>
+                         <trim_display>Sahara 4xe</trim_display>
+                         <msrp>56845</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TP</llp>
+                         <mpg>
+                             <hwy>0</hwy>
+                             <city>0</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_sahara_4xe>
+                     <Wringer_rubicon_4xe>
+                         <ccode>CUJ202317JLXS74A</ccode>
+                         <active>0</active>
+                         <display>DM RUBICON 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2023_JLandpaint=PSEandfabric=TVandsa=JLXS74,2TV,29V</image_src>
+                         <trim>rubicon_4xe</trim>
+                         <trim_display>Rubicon 4xe</trim_display>
+                         <msrp>61080</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TV</llp>
+                         <mpg>
+                             <hwy>0</hwy>
+                             <city>0</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_rubicon_4xe>
+                     <Wringer_high_altitude_4xe>
+                         <ccode>CUJ202317JLXP74B</ccode>
+                         <active>0</active>
+                         <display>DM HIGH ALTITUDE 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2023_JLandpaint=PX8andfabric=TAandsa=JLXP74,2TN,29N</image_src>
+                         <trim>high_altitude_4xe</trim>
+                         <trim_display>High Altitude 4xe</trim_display>
+                         <msrp>63115</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TN</llp>
+                         <mpg>
+                             <hwy>0</hwy>
+                             <city>0</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_high_altitude_4xe>
+                     <Wringer_rubicon_20th_anniversary_4xe>
+                         <ccode>CUJ202317JLXS74C</ccode>
+                         <active>0</active>
+                         <display>DM RUBICON 20TH ANNIVERSARY 4xe</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2023_JLandpaint=PGPandfabric=TVandsa=JLXS74,2TT,29T</image_src>
+                         <trim>rubicon_20th_anniversary_4xe</trim>
+                         <trim_display>Rubicon 20th Anniversary 4xe</trim_display>
+                         <msrp>70080</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TT</llp>
+                         <mpg>
+                             <hwy>20</hwy>
+                             <city>20</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </Wringer_rubicon_20th_anniversary_4xe>
+                 </models>
+                 <drives>
+                     <id>0</id>
+                     <name>4x4</name>
+                 </drives>
+             </Wringer_4xe>
+             

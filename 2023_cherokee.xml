@@ -1,0 +1,50 @@
+ <cherokee>
+                 <active>1</active>
+                 <display>Cherokee</display>
+                 <myc>CUJ202308</myc>
+                 <base>cherokee_altitude_lux_4x4</base>
+                 <mpg>cherokee_altitude_lux_4x4</mpg>
+                 <trims>altitude_lux</trims>
+                 <trims>trailhawk</trims>
+                 <models>
+                     <cherokee_altitude_lux_4x4>
+                         <ccode>CUJ202308KLJR74C</ccode>
+                         <active>1</active>
+                         <display>CHEROKEE ALTITUDE LUX 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2023_KLandpaint=PW7andfabric=X9andsa=KLJR74,2TT,2BT</image_src>
+                         <trim>altitude_lux</trim>
+                         <trim_display>Altitude Lux</trim_display>
+                         <msrp>37695</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TT</llp>
+                         <mpg>
+                             <hwy>29</hwy>
+                             <city>21</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </cherokee_altitude_lux_4x4>
+                     <cherokee_trailhawk_4x4>
+                         <ccode>CUJ202308KLJH74D</ccode>
+                         <active>1</active>
+                         <display>CHEROKEE TRAILHAWK 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2023_KLandpaint=PW7andfabric=X9andsa=KLJH74,2TK,2ZK</image_src>
+                         <trim>trailhawk</trim>
+                         <trim_display>Trailhawk</trim_display>
+                         <msrp>41295</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TK</llp>
+                         <mpg>
+                             <hwy>26</hwy>
+                             <city>20</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </cherokee_trailhawk_4x4>
+                 </models>
+                 <drives>
+                     <id>0</id>
+                     <name>4x4</name>
+                 </drives>
+             </cherokee>
+            

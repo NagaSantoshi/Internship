@@ -1,0 +1,161 @@
+ <grand_wagoneer>
+                 <active>1</active>
+                 <display>Grand Wagoneer</display>
+                 <myc>CUJ202416</myc>
+                 <base>grand_wagoneer_4x4</base>
+                 <mpg>grand_wagoneer_4x4</mpg>
+                 <trims>obsidian</trims>
+                 <trims>series_iii_obsidian</trims>
+                 <trims>series_iii</trims>
+                 <trims>grand_wagoneer</trims>
+                 <models>
+                     <grand_wagoneer_4x4>
+                         <ccode>CUJ202416WSJR75A</ccode>
+                         <active>1</active>
+                         <display>Grand Wagoneer 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WSandpaint=PW7andfabric=D7andsa=WSJR75,2TS,28S</image_src>
+                         <image>2024_gw1.avif</image>
+                         <trim>grand_wagoneer</trim>
+                         <trim_display>Grand Wagoneer</trim_display>
+                         <msrp>91945</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TS</llp>
+                         <mpg>
+                             <hwy>20</hwy>
+                             <city>14</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_wagoneer_4x4>
+                     <grand_wagoneer_l_4x4>
+                         <ccode>CUJ202416WSJR76A</ccode>
+                         <active>1</active>
+                         <display>Grand Wagoneer L 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WSandpaint=PW7andfabric=D7andsa=WSJR76,2TS,28S</image_src>
+                         <image>2024_gw2.avif</image>
+                         <trim>grand_wagoneer</trim>
+                         <trim_display>Grand Wagoneer</trim_display>
+                         <msrp>94945</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TS</llp>
+                         <mpg>
+                             <hwy>19</hwy>
+                             <city>14</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_wagoneer_l_4x4>
+                     <grand_wagoneer_obsidian_4x4>
+                         <ccode>CUJ202416WSJS75B</ccode>
+                         <active>1</active>
+                         <display>Grand Wagoneer Obsidian 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WSandpaint=PW7andfabric=X7andsa=WSJS75,2TT,28T</image_src>
+                         <image>2024_gw3.avif</image>
+                         <trim>obsidian</trim>
+                         <trim_display>Obsidian</trim_display>
+                         <msrp>104440</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TT</llp>
+                         <mpg>
+                             <hwy>20</hwy>
+                             <city>14</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_wagoneer_obsidian_4x4>
+                     <grand_wagoneer_l_obsidian_4x4>
+                         <ccode>CUJ202416WSJS76B</ccode>
+                         <active>1</active>
+                         <display>Grand Wagoneer L Obsidian 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WSandpaint=PW7andfabric=X7andsa=WSJS76,2TT,28T</image_src>
+                         <image>2024_gw4.avif</image>
+                         <trim>obsidian</trim>
+                         <trim_display>Obsidian</trim_display>
+                         <msrp>107440</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TT</llp>
+                         <mpg>
+                             <hwy>19</hwy>
+                             <city>14</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_wagoneer_l_obsidian_4x4>
+                     <grand_wagoneer_series_iii_4x4>
+                         <ccode>CUJ202416WSJT75A</ccode>
+                         <active>1</active>
+                         <display>Grand Wagoneer Series III 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WSandpaint=PSEandfabric=A6andsa=WSJT75,2TW,28W,QX8</image_src>
+                         <image>2024_gw5.avif</image>
+                         <trim>series_iii</trim>
+                         <trim_display>Series III</trim_display>
+                         <msrp>113290</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TW</llp>
+                         <mpg>
+                             <hwy>20</hwy>
+                             <city>14</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_wagoneer_series_iii_4x4>
+                     <grand_wagoneer_series_iii_obsidian_4x4>
+                         <ccode>CUJ202416WSJT75B</ccode>
+                         <active>1</active>
+                         <display>Grand Wagoneer Series III Obsidian 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WSandpaint=PASandfabric=A6andsa=WSJT75,2TT,28T</image_src>
+                         <image>2024_gw6.avif</image>
+                         <trim>series_iii_obsidian</trim>
+                         <trim_display>Series III Obsidian</trim_display>
+                         <msrp>114885</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TT</llp>
+                         <mpg>
+                             <hwy>20</hwy>
+                             <city>14</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_wagoneer_series_iii_obsidian_4x4>
+                     <grand_wagoneer_l_series_iii_4x4>
+                         <ccode>CUJ202416WSJT76A</ccode>
+                         <active>1</active>
+                         <display>Grand Wagoneer L Series III 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WSandpaint=PSEandfabric=A6andsa=WSJT76,2TW,28W</image_src>
+                         <image>2024_gw7.avif</image>
+                         <trim>series_iii</trim>
+                         <trim_display>Series III</trim_display>
+                         <msrp>116290</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TW</llp>
+                         <mpg>
+                             <hwy>19</hwy>
+                             <city>14</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_wagoneer_l_series_iii_4x4>
+                     <grand_wagoneer_l_series_iii_obsidian_4x4>
+                         <ccode>CUJ202416WSJT76B</ccode>
+                         <active>1</active>
+                         <display>Grand Wagoneer L Series III Obsidian 4X4</display>
+                         <image_src>client=fcausandmarket=Uandbrand=Jandvehicle=2024_WSandpaint=PASandfabric=A6andsa=WSJT76,2TT,28T</image_src>
+                         <image>2024_gw8.avif</image>
+                         <trim>series_iii_obsidian</trim>
+                         <trim_display>Series III Obsidian</trim_display>
+                         <msrp>117885</msrp>
+                         <variation_id>0</variation_id>
+                         <drive>4x4</drive>
+                         <llp>2TT</llp>
+                         <mpg>
+                             <hwy>19</hwy>
+                             <city>14</city>
+                             <disclaimer></disclaimer>
+                         </mpg>
+                     </grand_wagoneer_l_series_iii_obsidian_4x4>
+                 </models>
+                 <drives>
+                     <id>0</id>
+                     <name>4x4</name>
+                 </drives>
+             </grand_wagoneer>
