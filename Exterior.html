@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeep Grand Wagoneer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .color-option {
+            cursor: pointer;
+            border: 2px solid transparent;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            margin: 5px;
+            border: 2px solid #000;
+        }
+        .wheel-option {
+            cursor: pointer;
+            
+        }
+        .carImage{
+            width:100px;
+            height: 100px;
+        }
+        .wheel-image{
+            width:100px;
+            height:60px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="navbar-brand" href="#" style="color: whitesmoke;">MICHIGAN MOTORS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav" >
+      <li class="nav-item active">
+        <a class="nav-link" href="#exterior"style="color: whitesmoke;">EXTERIOR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#interior" style="color: whitesmoke;">INTERIOR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#packages" style="color: whitesmoke;">PACKAGES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#powertrain" style="color: whitesmoke;">POWERTRAIN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#summary" style="color: whitesmoke;">SUMMARY</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
+<!-- Car Display and Color Options -->
+<div class="container mt-5">
+    
+    <div class="row">
+        <div class="col-md-9">
+            <img id="carImage" src="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUp3g6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMkuIwXA8rO&&pov=position1&width=1944&height=1052&bkgrnd=white&resp=jpg&cut=" alt="Car Image" class="img-fluid">
+        </div>
+
+        <div class="col-md-3">
+          <h6>Build Your 2024 Grand Wagoneer L 4X4</h6>
+          <h3>Exterior</h3><br><br>
+            <h5>Exterior Colors</h5>
+            <div id="colorOptions">
+                <div class="color-option" style="background-color: white; " data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUp3g6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXA8rO&&pov=position1&width=1944&height=1052&bkgrnd=white&resp=jpg&cut="></div>
+
+                <div class="color-option" style="background-color: rgb(56, 55, 55);" data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUNeg6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXA8rO&&pov=position1&width=1944&height=1052&bkgrnd=white&resp=jpg&cut="></div>
+                <div class="color-option" style="background-color: rgb(21, 20, 20);" data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUh4g6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXA8rO&&pov=position1&width=1944&height=1052&bkgrnd=white&resp=jpg&cut="></div>
+                <div class="color-option" style="background-color: rgb(18, 9, 9);" data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUKpg6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXA8rO&&pov=position1&width=1944&height=1052&bkgrnd=white&resp=jpg&cut="></div>
+                <div class="color-option" style="background-color: rgb(12, 0, 0);" data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUKwg6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXA8rO&&pov=position1&width=1944&height=1052&bkgrnd=white&resp=jpg&cut="></div>
+                <div class="color-option" style="background-color: rgb(155, 149, 149);" data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUb8g6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXA8rO&&pov=position1&width=1944&height=1052&bkgrnd=white&resp=jpg&cut="></div>
+                <div class="color-option" style="background-color: rgb(78, 4, 4);" data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rU76g6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXA8rO&&pov=position1&width=1944&height=1052&bkgrnd=white&resp=jpg&cut="></div>
+            </div>
+            <div id="wheelOptions">
+                <h5>Wheels</h5>
+                <div class="wheel1">
+                <div class="wheel-option" data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUp3g6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXA8rO&&pov=position6&width=1944&height=1052&bkgrnd=white&resp=jpg&cut=">
+                    <img src="https://accessories.landrover.com/catalog-assets/land_rover/evoque_(2011-2018)_lr072432.jpg" class="wheel-image">
+                    <p>20"Machined ALuminium Wheels w/Batlic Gray Pockets</p>
+                </div>
+            </div>
+            <div class="wheel2">
+                <div class="wheel-option" data-image="https://www.jeep.com/mediaserver/iris?COSY-EU-100-1713uLDEMTV1r9s%25WBXaBKFmfKSLC9gIQALMc6UhVk3GBfM9IW2VRkr72kVwd9pi5wXGXQpMTV1rUp3g6OQCckPquBhS1U%25GzbTllxA0zcLa%25PQFmwprkpd2rNBoMAuewXAdsc&&pov=position6&width=1944&height=1052&bkgrnd=white&resp=jpg&cut="><img src="https://accessories.landrover.com/catalog-assets/land_rover/evoque_(2011-2018)_lr072432.jpg" class="wheel-image">
+                <p>22"Polished Aluminium Wheels w/Luster Gray Pockets</p>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.color-option').click(function() {
+            var imageUrl = $(this).data('image');
+            $('#carImage').attr('src', imageUrl);
+            $('.color-option').removeClass('active');
+            $(this).addClass('active');
+        });
+        $('.wheel-option').click(function() {
+            var imageUrl = $(this).data('image');
+            $('#carImage').attr('src', imageUrl);
+            $('.wheel-option').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll Navigation</title>
+    <link rel="stylesheet" href="integrate.css">
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar ul li {
+  margin: 0 15px;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar ul li a.active {
+  border-bottom: 2px solid #fff;
+}
+
+#content {
+  padding-top: 60px; /* Height of the navbar */
+}
+
+section {
+  padding: 60px;
+  min-height: 100vh;
+  border-bottom: 1px solid #ddd;
+}
+
+p {
+  font-size: 13px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.interior-view {
+  flex: 4;
+  position: relative;
+}
+
+#interiorImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.configurator {
+  flex: 2;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+}
+
+.content-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.interior-options, .entertainment-options {
+  margin-bottom: 20px;
+}
+
+.interior-colors {
+  display: flex;
+  gap: 10px;
+}
+
+.interior-colors button {
+  border-radius: 50%;
+  outline: none;
+  border: 2px solid transparent;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.color-option.active {
+  border-color: blueviolet;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.color-option:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.entertainment-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.entertainment-option img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.entertainment-option.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.entertainment-option:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container for car grid */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Scrollable container for car grid (optional) */
+.car-grid {
+  overflow-y: scroll;
+  /* Add scrollbar for horizontal scrolling */
+  white-space: nowrap;
+  /* Prevent line breaks between car items */
+  padding-bottom: 20px; /* Add space for scrollbar */
+}
+
+/* Individual car item */
+.car-item {
+  width: calc(33.33% - 20px); /* Adjust for margins and gutters */
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: inline-block; /* Needed for horizontal scrolling */
+}
+
+.car-item img {
+  width: 100%;
+  height: 200px; /* Adjust image height as needed */
+  object-fit: cover; /* Maintain aspect ratio and crop */
+}
+
+/* Car information section */
+.car-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.car-info h2 {
+  margin: 10px 0;
+}
+
+.car-info p {
+  margin: 0;
+}
+
+/* Color option buttons */
+.color-option {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  display: inline-block;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Active state for selected color option */
+.color-option.active {
+  border-color: blue; /* Change border color for active state */
+}
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="build_wagoneer.html">MODELS</a></li>
+            <li><a href="#exterior">EXTERIOR</a></li>
+            <li><a href="#interior">INTERIOR</a></li>
+            <li><a href="#packages">PACKAGES</a></li>
+            <li><a href="#powertrain">POWERTRAIN</a></li>
+            <li><a href="#summary">SUMMARY</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <!-- <section id="models">
+            <h2>Models</h2>
+            <p>Content for section 1.</p>
+        </section> -->
+
+        <section id="exterior">
+            <h2>Exterior</h2>
+            <!-- <p>Content for section 2.</p> -->
+            <div id="includedContent"></div>
+          <script>
+          fetch('Exterior.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('includedContent').innerHTML = data;
+            });
+          </script>
+        </section>
+
+        <section id="interior">
+            <h2>Interior</h2>
+            <div class="container">
+                <div class="interior-view">
+                    <img id="interiorImage" src="main.avif" alt="Interior View">
+                </div>
+                <div class="configurator">
+                    <div class="content-wrapper">
+                        <div class="interior-options">
+                            <h1>Interior</h1>
+                            <h3>INTERIOR COLORS</h3>
+                            <p>Global black interior colors</p>
+                            <br>
+                            <p>LEATHER-TRIMMED BUCKET SEATS</p>
+                            <div class="interior-colors">                    
+                                <button class="color-option" data-color="black" style="background-color: black;"></button>
+                                <button class="color-option" data-color="gray" style="background-color: gray;"></button>
+                                <button class="color-option" data-color="yellow" style="background-color: burlywood;"></button>
+                            </div>
+                        </div>
+                        <div class="entertainment-options">
+                            <h2>Entertainment</h2>
+                            <label class="entertainment-option" data-entertainment="entertainment">
+                                <img src="entertainment.jpeg" alt="Entertainment System">
+                                <p>Uconnect 5 Nav with 12.0-inch touch screen display <br>Standard</p>     
+                            </label>
+                        </div>
+                        <div class="entertainment-options">
+                            <h2>Entertainment Components</h2>
+                            <label class="entertainment-option" data-entertainment="entertainment1">
+                                <img src="entertainment1.jpeg" alt="Entertainment System">
+                                <p>Front passenger interactive display <br> $1,995</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages">
+            <h2>Packages</h2>
+            <p>Content for section 4.</p>
+          <iframe src="Packages.html" frameborder="0" width="100%" height="300px"></iframe>
+        </section>
+        
+        <section id="powertrain">
+           <h2>Powertrain</h2>
+            <div class="container1">
+                <div class="heading">Powertrain</div>
+                <div class="content-wrapper">
+                    <div class="content">
+                      <h3>Hurricane twin turbo 510 with stop/start</h3>                        
+                        <p>The 3.0L Hurricane Twin-Turbo 510 16 engine[1] with Stop/Start delivers 510 horsepower and 500 pound-feet of torque for outstanding performance. When properly equipped[2] it can tow up to 9,750 pounds. 1. Engine requires premium fuel only. 2. When equipped with the HD Trailer Tow Package, including 20-inch tires. See dealer for details.</p>        
+                    </div>
+                    <div class="center-image">
+                        <img src="powertrain.avif" alt="Powertrain Image">
+                    </div>
+                    <div class="content">
+                      <h3>Engine</h3>
+                      <p>Hurricane Twin Turbo 510 with Stop/Start</p>       
+                        <h3>Transmission</h3>
+                        <p> 8-Speed Automatic 8HP75 Transmission with ERS</p>        
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <!-- <p>Content for section 6.</p> -->
+            <iframe src="Summary.html" frameborder="0" width="100%" height="300px"></iframe>
+        </section>
+    </div>
+
+    <script src="integrate.js">
+        document.addEventListener("DOMContentLoaded", function() {
+  const sections = document.querySelectorAll("section");
+  const navLi = document.querySelectorAll("#navbar ul li a");
+
+  window.onscroll = () => {
+      var current = "";
+      sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          if (pageYOffset >= sectionTop - 60) {
+              current = section.getAttribute("id");
+          }
+      });
+
+      navLi.forEach((li) => {
+          li.classList.remove("active");
+          if (li.getAttribute("href").includes(current)) {
+              li.classList.add("active");
+          }
+      });
+  };
+
+  const colorButtons = document.querySelectorAll(".color-option");
+  const interiorImage = document.getElementById("interiorImage");
+  const entertainmentOptions = document.querySelectorAll(".entertainment-option");
+
+  colorButtons.forEach(button => {
+      button.addEventListener("click", () => {
+          // Remove active class from all buttons
+          colorButtons.forEach(btn => btn.classList.remove("active"));
+          // Add active class to clicked button
+          button.classList.add("active");
+
+          // Change the image based on the button clicked
+          const color = button.getAttribute("data-color");
+          let imageUrl;
+          switch(color) {
+              case "black":
+                  imageUrl = "black_interior.avif";
+                  break;
+              case "gray":
+                  imageUrl = "gray_interior.avif";
+                  break;
+              case "yellow":
+                  imageUrl = "yellow_interior.avif";
+                  break;
+              default:
+                  imageUrl = "main.avif";
+          }
+          interiorImage.src = imageUrl;
+      });
+  });
+
+  entertainmentOptions.forEach(option => {
+      option.addEventListener("click", () => {
+          // Remove active class from all options
+          entertainmentOptions.forEach(opt => opt.classList.remove("active"));
+          // Add active class to clicked option
+          option.classList.add("active");
+
+          // Implement the functionality for the selected entertainment option
+          const selectedEntertainment = option.getAttribute("data-entertainment");
+          // For now, we'll just log the selected option to the console
+          console.log(`Selected entertainment: ${selectedEntertainment}`);
+      });
+  });
+});
+
+    </script>
+</body>
+</html>
